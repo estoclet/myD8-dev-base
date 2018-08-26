@@ -17,22 +17,22 @@
     ],
     "config": {
         "platform": {
-            "php": "7.0.22"
+            "php": "7.2.8"
         }
     },
     "require": {
-        "drupal/core": "^8.5",
-        "estoclet/estoprofile": "^1.0",
-        "vlucas/phpdotenv": "^2.0"
+        "drupal/core": "8.6.*",
+        "estoclet/estoprofile": "1.*",
+        "vlucas/phpdotenv": "2.*"
     },
     "require-dev": {
-        "composer/composer": "^1.0",
-        "composer/installers": "^1.0",
-        "cweagans/composer-patches": "^1.0",
-        "drupal-composer/drupal-scaffold": "^2.0",
-        "drupal/console": "^1.0",
-        "drush/drush": "^9.0",
-        "drupal/coder": "^8.0"
+        "composer/composer": "1.*",
+        "composer/installers": "1.*",
+        "cweagans/composer-patches": "1.*",
+        "drupal-composer/drupal-scaffold": "2.*",
+        "drupal/console": "1.*",
+        "drush/drush": "9.*",
+        "drupal/coder": "8.*"
     },
     "conflict": {
         "drupal/drupal": "*"
